@@ -1,0 +1,63 @@
+.navbar {
+  z-index: 1000;
+}
+
+.nav-link {
+  margin-right: 15px;
+  color: white !important;
+  transition: color 0.3s ease;
+}
+.navbar-brand .brand-text h3,
+.navbar-brand .brand-text h4 {
+  color: white;
+  line-height: 2;
+}
+
+.brand-text .tagline {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.navbar-logo {
+  height: 50px;
+  width: auto;
+}
+
+
+.nav-link:hover {
+  color: #f44336 !important;
+  text-shadow: 0 0 5px #f44336;
+}
+/* Increase navbar height and set bg color */
+.custom-navbar {
+  background-color: #b30000; /* Light red - adjust to your theme */
+  height: 150px; /* increase height */
+}
+
+/* Logo styling */
+.navbar-logo {
+  height: 100px; /* Adjust logo size */
+  width: auto;
+  object-fit: contain;
+  color: white;
+}
+
+/* Adjust brand font size and weight */
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* Nav link styling and hover effect */
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #ffe6e6 !important; /* lighter pink for hover */
+  text-decoration: underline;
+  transform: scale(1.1);
+}
